@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<button type="button" onclick="document.write('Snehal')">Click to display on browser</button>
+ <button type="button" onclick="console.log('Snehal')">click to display on console</button>
+ <button type="button" onclick="window.alert('Snehal')">Click to display on window</button>
+ 
+</head>
+</html>
