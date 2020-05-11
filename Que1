@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+  
+  function largernumber(m,n,o) 
+  {
+  if(m>n && n>o)
+  {
+  return m;
+  }
+  else if (n<o)
+  {
+  return n;
+  }
+  else 
+  {
+  return o;
+  }
+}
+var m=9; n=5; o=20;
+document.write(largernumber(m,n,o));
+
+     </script>
+</head>
+</html>
