@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <input type="text" id="myText" >
+
+    <button onclick="myFunction()">click here to display your name</button>
+    
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myText").value;
+         document.getElementById("e").innerHTML = x;
+         document.getElementById("f").innerHTML = x;
+         document.getElementById("g").innerHTML = x;
+         document.getElementById("h").innerHTML = x;
+         document.getElementById("i").innerHTML = x;
+    }
+    </script>
+            
+<h1 id="e"></h1>
+<h2 id="f"></h2>
+<h3 id="g"></h3>
+<h4 id="h"></h4>
+<h5 id="i"></h5>
+</body>
+</html>
